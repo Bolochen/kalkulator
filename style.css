@@ -1,31 +1,33 @@
-.container {
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+.flex-container-column {
     display: flex;
+    flex-direction: column;
 
     /* properti lainnya */
     width: 800px;
-    height: 250px;
-    background-color: #11C5C6;
-    border: 2px solid black;
-    padding: 20px;
-    border-radius: 10px;
     margin: 0 auto;
+    text-align: right;
 }
-.box {
+.flex-container-row {
+    display: flex;
+
     /* properti lainnya */
-    background-color: #FBDD1C;
-    margin:5px;
-    border:2px solid black;
-    border-radius: 10px;
 }
-
-.first {
-    flex-grow: 1;
+.button {
+    flex-basis: 25%;
+    /* properti pendukung */
+    font-size: 1.5em;
+    text-align: center;
+    padding: 40px;
+    border: 1px solid black;
+    background: -webkit-linear-gradient(top, #d2d2d2, #ddd);
+    cursor: pointer;
 }
-
-.second {
-    flex-grow: 2;
-}
-
-.third {
-    flex-grow: 3;
+.double {
+    flex-basis: 50%;
 }
