@@ -11,11 +11,21 @@
     margin: 0 auto;
 }
 .box {
-    flex-grow: 1;
-
     /* properti lainnya */
     background-color: #FBDD1C;
     margin:5px;
     border:2px solid black;
     border-radius: 10px;
+}
+
+.first {
+    flex-grow: 1;
+}
+
+.second {
+    flex-grow: 2;
+}
+
+.third {
+    flex-grow: 3;
 }
